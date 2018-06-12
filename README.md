@@ -6,7 +6,7 @@ I am cleaning the codes for uploading, and some description should be added.
 
 
 
-## Requirements
+### Requirements
 - GPU and CUDA 8 are required
 - python >=3.5 
 - pytorch 0.3.0
@@ -17,6 +17,30 @@ I am cleaning the codes for uploading, and some description should be added.
 - cupy
 - pynvrtc
 
+### Download Data
+Please download data files from [google drive](https://drive.google.com/drive/folders/1EI47PfmeZRfpAUdNq2EI7um_sxlV8prv?usp=sharing), and put the files under the "dat" file. 
+Specifically, download these four files, 
+```
+questions_dis_data_150htmls_using_abstext.txt
+triple_weight_by_search.txt
+new_mined_paraphrase0124.txt
+WebQA.v1.0.tar.gz
+```
+Then unzip the WebQA data with ```tar -zxvf WebQA.v1.0.tar.gz```. 
+
+### Model training
+Please train the model via runing
+```python train_model.py```
+Please refer to ```parameters.py``` for details, where ```train_idx``` is consponding to different experimental configurations in the paper. 
+
+### Automatic training data generation via distant supervision 
+Besides the generated training data, we also released the data used to generate the training data, training sample selection and ming the distant paraphrases. 
+
+#### Distant supervision data generation 
+
+
+
+
 ### Credits
 Autor of sru: [Tao Lei](https://github.com/taolei87/sru).
 
@@ -25,3 +49,4 @@ Author of the Document Reader model: [Danqi Chen](https://github.com/danqi).
 Author of the original Pytorch implementation: [Runqi Yang](https://hitvoice.github.io/about/). 
 
 Most of the pytorch model code is borrowed from [Facebook/ParlAI](https://github.com/facebookresearch/ParlAI/) under a BSD-3 license.
+
