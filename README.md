@@ -44,9 +44,8 @@ Besides the generated training data, we also released the data used to generate 
 #### Training data generation via distant supervision
 Coming soon. 
 
-#### Training sample selection 
+#### Training sample selection and distant paraphrase Minging
 
-#### Distant paraphrase Minging
 
 
 ### Credits
