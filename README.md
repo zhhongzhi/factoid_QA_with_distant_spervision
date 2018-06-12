@@ -24,20 +24,25 @@ Specifically, download these four files,
 questions_dis_data_150htmls_using_abstext.txt
 triple_weight_by_search.txt
 new_mined_paraphrase0124.txt
-WebQA.v1.0.tar.gz
+WebQA.v1.0.tar.gz   # is it proper to upload this dataset? 
 ```
 Then unzip the WebQA data with ```tar -zxvf WebQA.v1.0.tar.gz```. 
 
 ### Model training
-Please train the model via runing
-```python train_model.py```
-Please refer to ```parameters.py``` for details, where ```train_idx``` is consponding to different experimental configurations in the paper. 
+Train the model via runing 
+
+```
+cd DSRC
+python train_model.py
+```
+
+Please refer to ```parameters.py``` for configuration details, where ```train_idx``` is consponding to different experimental configurations in the paper. 
 
 ### Automatic training data generation via distant supervision 
 Besides the generated training data, we also released the data used to generate the training data, training sample selection and ming the distant paraphrases. 
 
 #### Distant supervision data generation 
-
+Coming soon.
 
 
 
