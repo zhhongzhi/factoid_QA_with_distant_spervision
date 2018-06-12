@@ -66,7 +66,7 @@ class SingleModelParameters:
 
         self.cuda = True
         self.resume_flag = False
-        self.pretrained_model = '/home/hongzhi/wp/DSRC/ForPaper/models/rl_models16/checkpoint_epoch_300000.pt'  # why this epoch?
+        self.pretrained_model = './models/checkpoint_epoch_300000.pt'  # why this epoch?
 
         self.max_weight = 1.0
         self.smp_ds = False
