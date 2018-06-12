@@ -10,12 +10,12 @@ I am cleaning the codes for uploading, and some description should be added.
 - GPU and CUDA 8 are required
 - python >=3.5 
 - pytorch 0.3.0
-- numpy
 - pandas
 - msgpack
 - spacy 1.x
 - cupy
 - pynvrtc
+- jieba
 
 ### Download Data
 Please download data files from [google drive](https://drive.google.com/drive/folders/1EI47PfmeZRfpAUdNq2EI7um_sxlV8prv?usp=sharing), and put the files under the "dat" file. 
@@ -44,7 +44,7 @@ Besides the generated training data, we also released the data used to generate 
 #### Training data generation via distant supervision
 Coming soon. 
 
-#### Training sample selection and distant paraphrase Minging
+#### Training sample selection and distant paraphrase minging
 
 
 
