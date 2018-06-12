@@ -7,6 +7,7 @@ I am cleaning the codes for uploading, and some description should be added.
 
 
 ## Requirements
+- GPU and CUDA 8 are required
 - python >=3.5 
 - pytorch 0.3.0
 - numpy
