@@ -10,8 +10,8 @@ import torch
 curdir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(curdir)
 sys.path.append(os.path.split(curdir)[0])
-os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"] = "{}".format(1)
+#os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "{}".format(1)
 
 from DSRC.DataManager import DataManager
 from DSRC.parameters import SingleModelParameters
