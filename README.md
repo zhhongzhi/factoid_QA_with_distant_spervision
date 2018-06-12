@@ -41,9 +41,12 @@ Please refer to ```parameters.py``` for configuration details, where ```train_id
 ### Automatic training data generation via distant supervision 
 Besides the generated training data, we also released the data used to generate the training data, training sample selection and ming the distant paraphrases. 
 
-#### Distant supervision data generation 
-Coming soon.
+#### Training data generation via distant supervision
+Coming soon. 
 
+#### Training sample selection 
+
+#### Distant paraphrase Minging
 
 
 ### Credits
