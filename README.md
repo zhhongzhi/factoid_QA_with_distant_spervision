@@ -17,7 +17,7 @@ I am cleaning the codes for uploading, and some description should be added.
 - pynvrtc
 
 ### Credits
-Autor of sru: .[Tao Lei](https://github.com/taolei87/sru).
+Autor of sru: [Tao Lei](https://github.com/taolei87/sru).
 
 Author of the Document Reader model: [Danqi Chen](https://github.com/danqi).
 
