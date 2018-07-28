@@ -33,6 +33,7 @@ Train the model via runing
 
 ```
 cd DSRC
+mkdir logs
 python train_model.py
 ```
 
