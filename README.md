@@ -24,7 +24,7 @@ Specifically, download these four files,
 questions_dis_data_150htmls_using_abstext.txt
 triple_weight_by_search.txt
 new_mined_paraphrase0124.txt
-WebQA.v1.0.tar.gz   # is it proper to upload this dataset? 
+WebQA.v1.0.tar.gz   # is it proper to upload this dataset? If it is not permitted, tell me and I'll delete it. 
 ```
 Then unzip the WebQA data with ```tar -zxvf WebQA.v1.0.tar.gz```. 
 
