@@ -39,13 +39,6 @@ python train_model.py
 
 Please refer to ```parameters.py``` for configuration details, where ```train_idx``` is consponding to different experimental configurations in the paper. 
 
-### Automatic training data generation via distant supervision 
-Besides the generated training data, we also released the data used to generate the training data, training sample selection and ming the distant paraphrases. 
-
-#### Training data generation via distant supervision
-Coming soon. 
-
-#### Training sample selection and distant paraphrase minging
 
 
 
